@@ -33,7 +33,7 @@ public class FileController {
     }
 
     /**
-     * 上传文件 hhh
+     * 上传文件
      */
     @PostMapping("/upload")
     public ResponseEntity<ApiResponse<String>> uploadFile(@RequestParam("file") MultipartFile file) {
